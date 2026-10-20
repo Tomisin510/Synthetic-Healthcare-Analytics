@@ -1,0 +1,29 @@
+Question,RequestedAnalysis,Status,EvidenceOrLimitation
+1a,Age distribution,Descriptive,Age histogram and corrected age groups
+1b,Gender distribution,Descriptive,Admission-record counts; not unique people
+1c,Blood types within conditions,Descriptive,Within-condition percentages and counts
+2a,Most common conditions,Descriptive,Condition counts; not prevalence
+2b,Conditions by age,Descriptive,Counts plus within-age mix
+2c,Blood type-condition association,Exploratory,Chi-square and Cramers V; synthetic-only
+3a,Admissions over time,Descriptive,Year-month counts and observed-day rates
+3b,Most common admission type,Descriptive,Counts and shares
+3c,LOS by condition/type,Descriptive,"Mean, median and denominators"
+4a,Billing by condition,Descriptive,Nonnegative amounts and eligible-record counts
+4b,Insurer record count,Descriptive,"Admission-record count, not unique patients"
+4c,Admission type and billing,Descriptive,"Distribution summaries, not causal effect"
+5a,Highest hospital caseload,Descriptive,Top labels by count; identity unverified
+5b,Highest doctor caseload,Descriptive,Top labels by count; identity unverified
+5c,Provider outcome differences,Restricted,"Normal-result shares, count screen and intervals; not quality"
+6a,Test-result distribution,Descriptive,Recorded categories
+6b,Highest recovery rate,Not available as worded,Normal-result share reported; no recovery variable
+6c,Medication per condition,Descriptive,"Frequency of synthetic labels, no prescribing advice"
+7a,Peak periods,Descriptive,Chronological counts and complete-month/day comparisons
+7b,Groups needing most resources,Proxy only,Record counts/stay-days; no nursing or cost intensity
+7c,Room allocation and outcomes,Restricted,Hospital-room groups; no causal or ordinal room-number claim
+8a,Projected admissions,Experimental,Six-month rolling backtest vs baseline; historical-origin projection
+8b,Conditions likely to increase,Not established,Historical rates; separate condition forecast validation required
+8c,Frequent future admission risk,Not available,No verified patient identifier or longitudinal outcomes
+8d,Longer future stays,Experimental,Admission-time LOS regression vs training-mean baseline
+8e,Early high billing indicators,Experimental,"Training-threshold classifier and billing regression, baseline comparison"
+8f,Future hospital/department loads,Not established,Sparse/unverified provider labels; no department field
+8g,Resource planning,Illustrative,Stay-day/census scenarios; no actual capacity or medication-dose data

@@ -1,0 +1,28 @@
+{
+  "file": "healthcare_dataset.csv",
+  "sha256": "d8c23c7dddaf0e1f5daf26182eb908c219d28a63bb574377c3ba6cb09be8a342",
+  "raw_rows": 55500,
+  "python": "3.13.5",
+  "source_version": "Record the downloaded Kaggle version manually",
+  "licence": "Verify on the original dataset page before redistribution",
+  "snapshot": {
+    "operational_records": 54966,
+    "financial_records": 54860,
+    "nonnegative_billing_total": 1404121601.3121338,
+    "nonnegative_billing_mean": 25594.633636750525,
+    "mean_los_days": 15.499290470472657,
+    "median_los_days": 15.0,
+    "normal_result_share": 0.3334970709165666,
+    "negative_billing_records": 106,
+    "descriptive_q75_threshold": 37847.06667062174
+  },
+  "training_billing_threshold": 37933.27274736842,
+  "train_cutoff": "2022-05-08",
+  "test_cutoff": "2023-05-08",
+  "blood_association": {
+    "chi_square": 34.81808254734055,
+    "p_value": 0.4768576696256961,
+    "cramers_v": 0.011255644203014168,
+    "min_expected_cell": 1125.8301495469927
+  }
+}
